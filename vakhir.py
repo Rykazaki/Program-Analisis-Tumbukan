@@ -452,7 +452,7 @@ def program_vakhir(pilihandimensi): # Mendefinisikan program untuk menentukan ke
         text_v1akhir.tag_config('right', justify='right')
         text_v1akhir.tag_add('right',1.0,'end')
         text_v1akhir.config(state='disabled')
-        label_unitv1akhir = ttk.Label(frame_hasil, text=' kg.m/s')
+        label_unitv1akhir = ttk.Label(frame_hasil, text=' m/s')
         label_unitv1akhir.grid(row=1, column=3, sticky='w')
 
         # Frame hasil : Kecepatan benda 2
@@ -466,7 +466,7 @@ def program_vakhir(pilihandimensi): # Mendefinisikan program untuk menentukan ke
         text_v2akhir.tag_config('right', justify='right')
         text_v2akhir.tag_add('right',1.0,'end')
         text_v2akhir.config(state='disabled')
-        label_unitv2akhir = ttk.Label(frame_hasil, text=' kg.m/s')
+        label_unitv2akhir = ttk.Label(frame_hasil, text=' m/s')
         label_unitv2akhir.grid(row=2, column=3, sticky='w')
 
         # Frame hasil : Energi kinetik sistem sebelum tumbukan
