@@ -3,6 +3,9 @@
 # DESKRIPSI  : Program yang dapat menentukan jenis tumbukan dalam 1 dimensi 
 #              & 2 dimensi berdasarkan data yang diinput oleh pengguna.
 
+# CREDIT
+# Pembuatan GUI dibantu dengan modul Tkinter Designer karya Parth Jadhav
+
 # KAMUS LOKAL
 # pilihandimensi    : string, nilai dari dimensi yang dipilih
 # m1                : float, nilai dari massa benda 1 
@@ -349,7 +352,7 @@ def program_jenistumbukan(pilihandimensi): # Mendefinisikan program untuk menent
         # Membuat dua rectangle dan text sebagai header dan judul subprogram
         # menentukan jenis tumbukan satu dimensi
         canvasjenistumbukan1dimensi.create_rectangle(
-            5.684341886080802e-14,
+            0.0,
             0.0,
             820.0,
             100.0,
@@ -383,7 +386,7 @@ def program_jenistumbukan(pilihandimensi): # Mendefinisikan program untuk menent
         # Membuat tiga rectangle sebagai frame untuk data benda 1, benda 2, 
         # dan hasil
         canvasjenistumbukan1dimensi.create_rectangle(
-            19.999999999999986,
+            20.0,
             123.0,
             400.0,
             213.0,
@@ -391,7 +394,7 @@ def program_jenistumbukan(pilihandimensi): # Mendefinisikan program untuk menent
             outline="")
         
         canvasjenistumbukan1dimensi.create_rectangle(
-            121.99999999999999,
+            122.0,
             305.0,
             698.0,
             471.0,
@@ -408,7 +411,7 @@ def program_jenistumbukan(pilihandimensi): # Mendefinisikan program untuk menent
         
         # Data Benda 1
         canvasjenistumbukan1dimensi.create_text(
-            28.999999999999986,
+            29.0,
             112.0,
             anchor="nw",
             text="Benda 1",
@@ -417,7 +420,7 @@ def program_jenistumbukan(pilihandimensi): # Mendefinisikan program untuk menent
         
         # Membuat text untuk massa benda 1
         canvasjenistumbukan1dimensi.create_text(
-            33.999999999999986,
+            34.0,
             137.0,
             anchor="nw",
             text="Massa",
@@ -462,7 +465,7 @@ def program_jenistumbukan(pilihandimensi): # Mendefinisikan program untuk menent
         
         # Membuat text untuk kecepatan benda 1 sebelum tumbukan
         canvasjenistumbukan1dimensi.create_text(
-            33.999999999999986,
+            34.0,
             163.0,
             anchor="nw",
             text="Kecepatan sebelum tumbukan",
@@ -508,7 +511,7 @@ def program_jenistumbukan(pilihandimensi): # Mendefinisikan program untuk menent
         
         # Membuat text untuk kecepatan benda 1 setelah tumbukan
         canvasjenistumbukan1dimensi.create_text(
-            33.999999999999986,
+            34.0,
             189.0,
             anchor="nw",
             text="Kecepatan setelah tumbukan",
@@ -1044,7 +1047,7 @@ def program_jenistumbukan(pilihandimensi): # Mendefinisikan program untuk menent
         # Membuat dua rectangle dan text sebagai header dan judul subprogram
         # menentukan jenis tumbukan satu dimensi
         canvasjenistumbukan2dimensi.create_rectangle(
-            5.684341886080802e-14,
+            0.0,
             0.0,
             1200.0,
             100.0,
@@ -1078,7 +1081,7 @@ def program_jenistumbukan(pilihandimensi): # Mendefinisikan program untuk menent
         # Membuat tiga rectangle sebagai frame untuk data benda 1, benda 2, 
         # dan hasil
         canvasjenistumbukan2dimensi.create_rectangle(
-            34.999999999999986,
+            35.0,
             123.0,
             585.0,
             213.0,
@@ -1103,7 +1106,7 @@ def program_jenistumbukan(pilihandimensi): # Mendefinisikan program untuk menent
         
         # Data Benda 1
         canvasjenistumbukan2dimensi.create_text(
-            43.999999999999986,
+            44.0,
             112.0,
             anchor="nw",
             text="Benda 1",
@@ -1112,7 +1115,7 @@ def program_jenistumbukan(pilihandimensi): # Mendefinisikan program untuk menent
         
         # Membuat text untuk massa benda 1
         canvasjenistumbukan2dimensi.create_text(
-            48.999999999999986,
+            49.0,
             137.0,
             anchor="nw",
             text="Massa",
@@ -1157,7 +1160,7 @@ def program_jenistumbukan(pilihandimensi): # Mendefinisikan program untuk menent
         
         # Membuat text untuk kecepatan benda 1 sebelum tumbukan
         canvasjenistumbukan2dimensi.create_text(
-            48.999999999999986,
+            49.0,
             163.0,
             anchor="nw",
             text="Kecepatan sebelum tumbukan",
@@ -1232,7 +1235,7 @@ def program_jenistumbukan(pilihandimensi): # Mendefinisikan program untuk menent
         
         # Membuat text untuk kecepatan benda 1 setelah tumbukan
         canvasjenistumbukan2dimensi.create_text(
-            48.999999999999986,
+            49.0,
             189.0,
             anchor="nw",
             text="Kecepatan setelah tumbukan",
