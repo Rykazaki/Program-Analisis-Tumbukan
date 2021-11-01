@@ -3,13 +3,15 @@
 # DESKRIPSI  : Program yang dapat menentukan jenis tumbukan dan kecepatan akhir benda
 #              dalam 1 dimensi & 2 dimensi berdasarkan data yang diinput oleh pengguna.
 
+# CREDIT
+# Pembuatan GUI dibantu dengan modul Tkinter Designer karya Parth Jadhav
+
 # KAMUS
 # dimensi                : array, berisi dimensi yang dapat dipilih
 # nilai_pilihandimensi   : string, nilai dari dimensi yang dipilih
 
 
 # ALGORITMA
-
 # Import pathlib untuk mengakses gambar dalam folder assets
 from pathlib import Path
 
