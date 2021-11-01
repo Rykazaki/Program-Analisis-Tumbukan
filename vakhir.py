@@ -3,6 +3,9 @@
 # DESKRIPSI  : Program yang dapat menentukan kecepatan akhir dalam 1 dimensi 
 #              & 2 dimensi berdasarkan data yang diinput oleh pengguna.
 
+# CREDIT
+# Pembuatan GUI dibantu dengan modul Tkinter Designer karya Parth Jadhav
+
 # KAMUS LOKAL
 # pilihandimensi        : string, nilai dari dimensi yang dipilih
 # m1                    : float, nilai dari massa benda 1 
@@ -373,7 +376,7 @@ def program_vakhir(pilihandimensi): # Mendefinisikan program untuk menentukan ke
         # Membuat dua rectangle dan text sebagai header dan judul subprogram
         # menentukan kecepatan akhir 1 dimensi
         canvas.create_rectangle(
-            5.684341886080802e-14,
+            0.0,
             0.0,
             820.0,
             100.0,
@@ -1048,7 +1051,7 @@ def program_vakhir(pilihandimensi): # Mendefinisikan program untuk menentukan ke
         # Membuat dua rectangle dan text sebagai header dan judul subprogram
         # menentukan kecepatan akhir 2 dimensi
         canvas.create_rectangle(
-            5.684341886080802e-14,
+            0.0,
             0.0,
             1200.0,
             100.0,
@@ -1082,7 +1085,7 @@ def program_vakhir(pilihandimensi): # Mendefinisikan program untuk menentukan ke
         # Membuat empat rectangle sebagai frame untuk data benda 1, benda 2, 
         # kecepatan akhir salah satu benda, dan hasil
         canvas.create_rectangle(
-            34.999999999999986,
+            35.0,
             123.0,
             585.0,
             190.0,
@@ -1115,7 +1118,7 @@ def program_vakhir(pilihandimensi): # Mendefinisikan program untuk menentukan ke
         
         # Data Benda 1
         canvas.create_text(
-            43.999999999999986,
+            44.0,
             112.0,
             anchor="nw",
             text="Benda 1",
@@ -1124,7 +1127,7 @@ def program_vakhir(pilihandimensi): # Mendefinisikan program untuk menentukan ke
         
         # Membuat text untuk massa benda 1
         canvas.create_text(
-            48.999999999999986,
+            49.0,
             137.0,
             anchor="nw",
             text="Massa",
@@ -1169,7 +1172,7 @@ def program_vakhir(pilihandimensi): # Mendefinisikan program untuk menentukan ke
         
         # Membuat text untuk kecepatan benda 1 sebelum tumbukan
         canvas.create_text(
-            48.999999999999986,
+            49.0,
             163.0,
             anchor="nw",
             text="Kecepatan sebelum tumbukan",
@@ -1815,4 +1818,4 @@ def program_vakhir(pilihandimensi): # Mendefinisikan program untuk menentukan ke
         
         # Menjalankan aplikasi agar tetap berjalan sebelum di-close
         vakhir2dimensi.mainloop()
-        
+      
